@@ -12,7 +12,7 @@ keywords = ["arrow", "ipc", "stream", "cli", "json", "jsonl", "ndjson"]
 categories = ["command-line-utilities"]
 
 exclude = [
-	"./target",
+	"arrow-ipc-stream2jsonl",
 ]
 
 [lints.rust]
