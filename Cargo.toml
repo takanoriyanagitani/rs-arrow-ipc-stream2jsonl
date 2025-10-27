@@ -3,6 +3,14 @@ name = "rs-arrow-ipc-stream2jsonl"
 version = "0.1.0"
 edition = "2024"
 
+description = "Arrow IPC to JSONL converter"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-arrow-ipc-stream2jsonl"
+homepage = "https://github.com/takanoriyanagitani/rs-arrow-ipc-stream2jsonl"
+documentation = "https://docs.rs/rs-arrow-ipc-stream2jsonl/latest"
+keywords = ["arrow", "ipc", "stream", "cli", "json", "jsonl", "ndjson"]
+categories = ["command-line-utilities"]
+
 exclude = [
 	"./target",
 ]
