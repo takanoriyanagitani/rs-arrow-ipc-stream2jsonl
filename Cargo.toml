@@ -8,7 +8,7 @@ license = "Apache-2.0"
 repository = "https://github.com/takanoriyanagitani/rs-arrow-ipc-stream2jsonl"
 homepage = "https://github.com/takanoriyanagitani/rs-arrow-ipc-stream2jsonl"
 documentation = "https://docs.rs/rs-arrow-ipc-stream2jsonl/latest"
-keywords = ["arrow", "ipc", "stream", "cli", "json", "jsonl", "ndjson"]
+keywords = ["arrow", "ipc", "stream", "json", "ndjson"]
 categories = ["command-line-utilities"]
 
 exclude = [
