@@ -1,0 +1,26 @@
+[package]
+name = "rs-arrow-ipc-stream2jsonl"
+version = "0.1.0"
+edition = "2024"
+
+exclude = [
+	"./target",
+]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+	"ipc",
+	"json",
+]
+
+[[bin]]
+name = "arrow-ipc-stream2jsonl"
